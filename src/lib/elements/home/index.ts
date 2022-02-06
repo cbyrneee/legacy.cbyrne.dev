@@ -1,3 +1,3 @@
 export * from "./Introduction"
 export * from "./AboutMe"
-export * from "./Experience"
+export * from "./experience"

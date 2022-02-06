@@ -1,4 +1,3 @@
-import { Container } from "../lib/elements/layout"
 import { Introduction, AboutMe, Experience } from "../lib/elements/home"
 
 export default function Home() {
