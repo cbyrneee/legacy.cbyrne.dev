@@ -1,10 +1,11 @@
-import Image from "next/image"
-import { Introduction } from "../lib/elements/home"
+import { Container } from "../lib/elements/base"
+import { Introduction, AboutMe } from "../lib/elements/home"
 
 export default function Home() {
     return (
-        <div className="rounded-md border-2 border-neutral-100 bg-neutral-50 p-6">
+        <div className="flex flex-col gap-4">
             <Introduction />
+            <AboutMe />
         </div>
     )
 }
