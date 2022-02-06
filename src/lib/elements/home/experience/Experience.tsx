@@ -1,6 +1,6 @@
+import Link from "next/link"
 import React from "react"
-import { ReactIcon, NextIcon } from "../../../icons"
-import KotlinLogo from "../../../icons/KotlinLogo"
+import { ReactIcon, NextIcon, KotlinIcon, PhoneIcon } from "../../../icons"
 import typography from "../../../typography"
 import { Container } from "../../layout"
 import { ExperienceItem } from "./ExperienceItem"
@@ -20,22 +20,43 @@ export function Experience() {
 
             <div className="mt-2 flex flex-col gap-6 lg:mt-0 lg:gap-4">
                 <ExperienceItem
-                    title="React"
-                    description="React is a library for creating user interfaces for the web."
-                    icon={<ReactIcon className="h-16 w-16 dark:fill-emerald-400/80" />}
-                />
+                    title="iOS Runtime Modifications"
+                    icon={<PhoneIcon className="h-16 w-16 stroke-emerald-800 dark:fill-emerald-400/80" />}
+                >
+                    In the past, I spent a lot of time developing {"'"}tweaks{"'"} for jailbroken iOS devices. Some of
+                    which, have gained over 270,000 downloads.
+                    <Link passHref href="https://repo.dynastic.co/package/dotto">
+                        <span className={typography.paragraphLink + " mx-2 cursor-pointer"}>dotto+</span>
+                    </Link>
+                    <Link passHref href="https://repo.dynastic.co/package/dragspring">
+                        <span className={typography.paragraphLink + " cursor-pointer"}>Dragspring</span>
+                    </Link>
+                </ExperienceItem>
 
-                <ExperienceItem
-                    title="Next.js"
-                    description="Next.js is a framework for React which helps build fast and modern websites."
-                    icon={<NextIcon className="h-16 w-16 dark:fill-emerald-400/80" />}
-                />
+                <ExperienceItem title="Kotlin" icon={<KotlinIcon className="h-16 w-16 dark:fill-emerald-400/80" />}>
+                    I{"'"}ve been using Kotlin for 2 years to build server-side software, JVM applications, and more.
+                    <Link passHref href="https://github.com/cbyrneee/KDiscordIPC">
+                        <span className={typography.paragraphLink + " mx-2 cursor-pointer"}>KDiscordIPC</span>
+                    </Link>
+                    <Link passHref href="https://github.com/cbyrneee/Injector">
+                        <span className={typography.paragraphLink + " mr-2 cursor-pointer"}>Injector</span>
+                    </Link>
+                </ExperienceItem>
 
-                <ExperienceItem
-                    title="Kotlin"
-                    description="Kotlin is a programming language (initially) designed for the JVM."
-                    icon={<KotlinLogo className="h-16 w-16 dark:fill-emerald-400/80" />}
-                />
+                <ExperienceItem title="React" icon={<ReactIcon className="h-16 w-16 dark:fill-emerald-400/80" />}>
+                    I{"'"}ve been using React for 1 year, and I have a great understanding of how it works and best
+                    practices.
+                    <Link passHref href="https://cbyrne.dev">
+                        <span className={typography.paragraphLink + " mx-2 cursor-pointer"}>cbyrne.dev</span>
+                    </Link>
+                </ExperienceItem>
+
+                <ExperienceItem title="Next.js" icon={<NextIcon className="h-16 w-16 dark:fill-emerald-400/80" />}>
+                    I{"'"}ve been using Next.JS for 1 year to build websites for myself, and for my clients.
+                    <Link passHref href="https://cbyrne.dev">
+                        <span className={typography.paragraphLink + " mx-2 cursor-pointer"}>cbyrne.dev</span>
+                    </Link>
+                </ExperienceItem>
             </div>
         </Container>
     )

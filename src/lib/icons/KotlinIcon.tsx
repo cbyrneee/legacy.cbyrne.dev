@@ -1,10 +1,10 @@
 import React from "react"
 
-interface KotlinLogoProps {
+interface KotlinIconProps {
     className?: string
 }
 
-export default function KotlinLogo({ className = "" }: KotlinLogoProps) {
+export function KotlinIcon({ className = "" }: KotlinIconProps) {
     return (
         <svg
             className={className}
