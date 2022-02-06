@@ -1,6 +1,6 @@
 import React from "react"
-import { Link } from "../../../control"
-import { ReactIcon, NextIcon, KotlinIcon, PhoneIcon } from "../../../icons"
+import { Link } from "../../../components/control"
+import { ReactIcon, NextIcon, KotlinIcon, PhoneIcon } from "../../../components/icons"
 import typography from "../../../typography"
 import { Container } from "../../layout"
 import { ExperienceItem } from "./ExperienceItem"
@@ -44,12 +44,16 @@ export function Experience() {
                 <ExperienceItem title="React" icon={<ReactIcon className={iconStyle} />}>
                     I{"'"}ve been using React for 1 year, and I have a great understanding of how it works and best
                     practices.
-                    <Link href="https://cbyrne.dev">cbyrne.dev</Link>
+                    <Link href="https://cbyrne.dev" className="mx-2">
+                        cbyrne.dev
+                    </Link>
                 </ExperienceItem>
 
                 <ExperienceItem title="Next.js" icon={<NextIcon className={iconStyle} />}>
                     I{"'"}ve been using Next.JS for 1 year to build websites for myself, and for my clients.
-                    <Link href="https://cbyrne.dev">cbyrne.dev</Link>
+                    <Link href="https://cbyrne.dev" className="mx-2">
+                        cbyrne.dev
+                    </Link>
                 </ExperienceItem>
             </div>
         </Container>

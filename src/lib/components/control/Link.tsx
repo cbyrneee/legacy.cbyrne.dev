@@ -1,6 +1,6 @@
 import NextLink from "next/link"
 import React from "react"
-import typography from "../typography"
+import typography from "../../typography"
 
 interface LinkProps {
     href: string

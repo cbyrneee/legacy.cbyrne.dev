@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "../../control"
+import { Link } from "../../components/control"
 import typography from "../../typography"
 import { Container } from "../layout"
 
