@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
     return (
         <AnimatePresence>
             <motion.div
+                className="container mx-auto w-full max-w-4xl p-4 lg:p-0 lg:py-12"
                 key={router.asPath}
                 variants={variants.fadeInOut}
                 initial="initial"
