@@ -10,6 +10,10 @@ export default function Document() {
                 <link rel="manifest" href="/site.webmanifest" />
                 <meta property="og:title" content="Conor Byrne" />
                 <meta
+                    name="description"
+                    content="I am a student and developer, with proficiency in Kotlin, Java, Typescript and Swift."
+                />
+                <meta
                     name="og:description"
                     content="I am a student and developer, with proficiency in Kotlin, Java, Typescript and Swift."
                 />
