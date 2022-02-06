@@ -12,6 +12,14 @@ export default function Document() {
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
                 <link rel="manifest" href="/site.webmanifest" />
+                <meta property="og:title" content="Conor Byrne" />
+                <meta
+                    name="og:description"
+                    content="I am a student and developer, with proficiency in Kotlin, Java, Typescript and Swift."
+                />
+                <meta name="og:image" content="/profile.webp" />
+                <meta name="og:url" content="https://cbyrne.dev" />
+                <meta name="theme-color" content="#9ebeb2" />
             </Head>
 
             <body>
