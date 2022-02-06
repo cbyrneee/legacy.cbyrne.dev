@@ -18,7 +18,6 @@ export default function Document() {
                     content="I am a student and developer, with proficiency in Kotlin, Java, Typescript and Swift."
                 />
                 <meta name="og:image" content="/profile.webp" />
-                <meta name="og:url" content="https://cbyrne.dev" />
                 <meta name="theme-color" content="#9ebeb2" />
             </Head>
 
