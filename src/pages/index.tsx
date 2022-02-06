@@ -1,11 +1,18 @@
+import Head from "next/head"
 import { Introduction, AboutMe, Experience } from "../lib/elements/home"
 
 export default function Home() {
     return (
-        <div className="flex flex-col gap-4">
-            <Introduction />
-            <AboutMe />
-            <Experience />
-        </div>
+        <>
+            <Head>
+                <title>Conor Byrne</title>
+            </Head>
+
+            <div className="flex flex-col gap-4">
+                <Introduction />
+                <AboutMe />
+                <Experience />
+            </div>
+        </>
     )
 }
