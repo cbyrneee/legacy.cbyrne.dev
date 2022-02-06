@@ -1,5 +1,5 @@
-import Link from "next/link"
 import React from "react"
+import { Link } from "../../../control"
 import { ReactIcon, NextIcon, KotlinIcon, PhoneIcon } from "../../../icons"
 import typography from "../../../typography"
 import { Container } from "../../layout"
@@ -27,37 +27,29 @@ export function Experience() {
                 >
                     In the past, I spent a lot of time developing {"'"}tweaks{"'"} for jailbroken iOS devices. Some of
                     which, have gained over 270,000 downloads.
-                    <Link passHref href="https://repo.dynastic.co/package/dotto">
-                        <span className={typography.paragraphLink + " mx-2 cursor-pointer"}>dotto+</span>
+                    <Link href="https://repo.dynastic.co/package/dotto" className="mx-2">
+                        dotto+
                     </Link>
-                    <Link passHref href="https://repo.dynastic.co/package/dragspring">
-                        <span className={typography.paragraphLink + " cursor-pointer"}>Dragspring</span>
-                    </Link>
+                    <Link href="https://repo.dynastic.co/package/dragspring">Dragspring</Link>
                 </ExperienceItem>
 
                 <ExperienceItem title="Kotlin" icon={<KotlinIcon className={iconStyle} />}>
                     I{"'"}ve been using Kotlin for 2 years to build server-side software, JVM applications, and more.
-                    <Link passHref href="https://github.com/cbyrneee/KDiscordIPC">
-                        <span className={typography.paragraphLink + " mx-2 cursor-pointer"}>KDiscordIPC</span>
+                    <Link href="https://github.com/cbyrneee/KDiscordIPC" className="mx-2">
+                        KDiscordIPC
                     </Link>
-                    <Link passHref href="https://github.com/cbyrneee/Injector">
-                        <span className={typography.paragraphLink + " mr-2 cursor-pointer"}>Injector</span>
-                    </Link>
+                    <Link href="https://github.com/cbyrneee/Injector">Injector</Link>
                 </ExperienceItem>
 
                 <ExperienceItem title="React" icon={<ReactIcon className={iconStyle} />}>
                     I{"'"}ve been using React for 1 year, and I have a great understanding of how it works and best
                     practices.
-                    <Link passHref href="https://cbyrne.dev">
-                        <span className={typography.paragraphLink + " mx-2 cursor-pointer"}>cbyrne.dev</span>
-                    </Link>
+                    <Link href="https://cbyrne.dev">cbyrne.dev</Link>
                 </ExperienceItem>
 
                 <ExperienceItem title="Next.js" icon={<NextIcon className={iconStyle} />}>
                     I{"'"}ve been using Next.JS for 1 year to build websites for myself, and for my clients.
-                    <Link passHref href="https://cbyrne.dev">
-                        <span className={typography.paragraphLink + " mx-2 cursor-pointer"}>cbyrne.dev</span>
-                    </Link>
+                    <Link href="https://cbyrne.dev">cbyrne.dev</Link>
                 </ExperienceItem>
             </div>
         </Container>

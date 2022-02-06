@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "../../control"
 import typography from "../../typography"
 import { Container } from "../layout"
 
@@ -11,10 +12,7 @@ export function AboutMe() {
                     I am a student and developer, with proficiency in Kotlin, Java, Typescript and Swift.
                 </p>
                 <p className={typography.paragraph}>
-                    Currently, I am working for{" "}
-                    <a className={typography.paragraphLink} href="https://oplegends.com">
-                        OPLegends.
-                    </a>
+                    Currently, I am working for <Link href="https://oplegends.com">OPLegends</Link>
                 </p>
             </div>
         </Container>
