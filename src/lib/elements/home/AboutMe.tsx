@@ -1,6 +1,6 @@
 import React from "react"
 import typography from "../../typography"
-import { Container } from "../base"
+import { Container } from "../layout"
 
 export function AboutMe() {
     return (
