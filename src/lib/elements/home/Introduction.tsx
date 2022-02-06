@@ -11,7 +11,7 @@ export function Introduction() {
             <div className="w-full items-center gap-4 px-4 lg:flex lg:flex-row lg:justify-between">
                 <div className="flex flex-row items-center gap-4">
                     <div className="h-20 w-20">
-                        <Image className="rounded-md" alt="Profile" width="100px" height="100px" src="/profile.webp" />
+                        <Image className="rounded-md" alt="Profile" width="80px" height="80px" src="/profile.webp" />
                     </div>
 
                     <div>
