@@ -3,6 +3,7 @@ import React from "react"
 import { Container } from "../layout"
 import typography from "../../typography"
 import { Link } from "../../components/control"
+import { ChatIcon, CodeIcon, EmailIcon } from "../../components/icons"
 
 export function Introduction() {
     return (
@@ -19,15 +20,21 @@ export function Introduction() {
                     </div>
                 </div>
 
-                <div className="mt-4 flex items-start gap-2 lg:mt-0">
+                <div className="mt-4 flex flex-row gap-2">
                     <Link href="https://github.com/cbyrneee" bigger>
-                        GitHub
+                        <div className="flex flex-row gap-2">
+                            <CodeIcon className="hidden h-6 w-6 md:inline" /> GitHub
+                        </div>
                     </Link>
                     <Link href="mailto:hello@cbyrne.dev" bigger>
-                        Email
+                        <div className="flex flex-row gap-2">
+                            <EmailIcon className="hidden h-6 w-6 md:inline" /> Email
+                        </div>
                     </Link>
                     <Link href="https://twitter.com/cbyrnedev" bigger>
-                        Twitter
+                        <div className="flex flex-row gap-2">
+                            <ChatIcon className="hidden h-6 w-6 md:inline" /> Twitter
+                        </div>
                     </Link>
                 </div>
             </div>
