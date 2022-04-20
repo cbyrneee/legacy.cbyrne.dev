@@ -12,7 +12,7 @@ export function AboutMe() {
                     I am a student and developer, with proficiency in Kotlin, Java, Typescript and Swift.
                 </p>
                 <p className={typography.paragraph}>
-                    Currently, I am working for <Link href="https://oplegends.com">OPLegends</Link>
+                    Currently, I am working for <Link href="https://essential.gg">Essential</Link>.
                 </p>
             </div>
         </Container>
