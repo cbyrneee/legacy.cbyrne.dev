@@ -35,7 +35,8 @@ export function Experience() {
 
                 <ExperienceItem title="Kotlin" icon={<KotlinIcon className={iconStyle} />}>
                     I{"'"}ve been using Kotlin for 2 years to build server-side software, JVM applications, and more.
-                    <Link href="https://github.com/cbyrneee/KDiscordIPC" className="mx-2">
+                    <Link href="https://github.com/MediaModMC/MediaMod" className="mx-2">MediaMod</Link>
+                    <Link href="https://github.com/cbyrneee/KDiscordIPC" className="mr-2">
                         KDiscordIPC
                     </Link>
                     <Link href="https://github.com/cbyrneee/Injector">Injector</Link>
